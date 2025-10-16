@@ -8,7 +8,7 @@
 
     <style>
         body {
-            background: url("{{ asset('images/back3.jpg') }}") no-repeat center center fixed;
+            background: url("{{ asset('images/bg_web.jpg') }}") no-repeat center center fixed;
             background-size: cover;
             display: flex;
             flex-direction: column;
@@ -45,5 +45,7 @@
 
     {{-- Footer --}}
     @include('components.footer')
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
